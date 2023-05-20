@@ -1,11 +1,13 @@
-numpy
+python==3.9.3
+pip==23.1.2
+numpy==1.24.2
 scipy
 scikit-learn
 matplotlib
-pandas
+pandas==2.0.0
 lightgbm==3.3.5
-fastapi
-uvicorn
+fastapi==0.95.2
+uvicorn==0.22.0
 gunicorn==19.9.0
 uvloop
 httptools
