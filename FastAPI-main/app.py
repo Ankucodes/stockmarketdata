@@ -26,9 +26,9 @@ except EOFError:
 BASE_DIR = Path(__file__).resolve().parent
 templates = Jinja2Templates(directory=str(Path(BASE_DIR, 'templates')))
 
-#@app.get('/')
-#def read_form():
-#    return 'hello world'
+@app.get('/')
+def read_form():
+    return 'hello world'
 
 @app.get(path="/predict", response_class=HTMLResponse)
 def main(request: Request):
