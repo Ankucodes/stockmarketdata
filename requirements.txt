@@ -3,10 +3,10 @@ scipy
 scikit-learn
 matplotlib
 pandas
+lightgbm==3.3.5
 fastapi
 uvicorn
 gunicorn==19.9.0
 uvloop
 httptools
 jinja2==3.0.3
-lightgbm
